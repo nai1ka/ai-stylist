@@ -1,0 +1,16 @@
+services:
+  stylist:
+    build: .
+    image: ai-stylist:local
+    # x86 Linux target for MediaPipe; Apple Silicon runs this via emulation.
+    platform: linux/amd64
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - type: bind
+        source: ./models
+        target: /app/models
+        read_only: true
+        bind:
+          create_host_path: false
+    restart: unless-stopped

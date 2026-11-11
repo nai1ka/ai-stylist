@@ -1,0 +1,35 @@
+services:
+  stylist:
+    image: ai-stylist:amd64
+    platform: linux/amd64
+    pull_policy: never
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - type: bind
+        source: ./models
+        target: /app/models
+        read_only: true
+        bind:
+          create_host_path: false
+    command:
+      - python
+      - -m
+      - streamlit
+      - run
+      - app.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+      - --server.baseUrlPath=stylist
+      - --server.maxUploadSize=10
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "from urllib.request import urlopen; urlopen('http://127.0.0.1:8501/stylist/_stcore/health', timeout=4)"
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+    restart: unless-stopped

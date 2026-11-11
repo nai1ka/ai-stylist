@@ -1,0 +1,41 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.matplotlib-cache/
+.cache/
+models/**
+!models/.gitkeep
+datasets/**
+!datasets/.gitkeep
+# Keep metrics and plots, but exclude dataset photographs and local caches.
+evaluation/results/examples/
+*.pyc
+.DS_Store
+release/
+
+# Deployment bundles and model/checkpoint artifacts.
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.task
+
+# Local logs, credentials and host-specific settings.
+*.log
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+.codex/
+.agents/
+*.pem
+*.key

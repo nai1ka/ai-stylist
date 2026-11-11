@@ -1,0 +1,138 @@
+{
+  "model": {
+    "id": "jonathandinu/face-parsing",
+    "revision": "8ee285cb01328e6b6d0d33f2cdbc6d8505ac069d",
+    "config_id2label": {
+      "0": "background",
+      "1": "skin.png",
+      "2": "nose.png",
+      "3": "r_eye.png",
+      "4": "l_eye.png",
+      "5": "r_brow.png",
+      "6": "l_brow.png",
+      "7": "r_ear.png",
+      "8": "l_ear.png",
+      "9": "mouth.png",
+      "10": "u_lip.png",
+      "11": "l_lip.png",
+      "12": "neck.png",
+      "13": "hair.png",
+      "14": "neck_l.png",
+      "15": "cloth.png",
+      "16": "eye_g.png",
+      "17": "hat.png",
+      "18": "ear_r.png"
+    }
+  },
+  "dataset": {
+    "name": "LaPa",
+    "split": "test",
+    "root": "/Users/nai1ka/Projects/stylist/datasets/LaPa",
+    "seed": 42,
+    "manifest": "/Users/nai1ka/Projects/stylist/evaluation/lapa_test_100_seed42.json",
+    "sampled": 100,
+    "processed": 100
+  },
+  "class_mapping": {
+    "skin": {
+      "lapa_ids": [
+        1
+      ],
+      "lapa_labels": [
+        "skin"
+      ],
+      "model_ids": [
+        1
+      ],
+      "model_labels": [
+        "skin.png"
+      ]
+    },
+    "hair": {
+      "lapa_ids": [
+        10
+      ],
+      "lapa_labels": [
+        "hair"
+      ],
+      "model_ids": [
+        13
+      ],
+      "model_labels": [
+        "hair.png"
+      ]
+    },
+    "eyes": {
+      "lapa_ids": [
+        4,
+        5
+      ],
+      "lapa_labels": [
+        "left eye",
+        "right eye"
+      ],
+      "model_ids": [
+        3,
+        4
+      ],
+      "model_labels": [
+        "r_eye.png",
+        "l_eye.png"
+      ]
+    },
+    "note": "Схемы разметки различаются; оцениваются только перечисленные области. Все остальные ID являются отрицательными пикселями."
+  },
+  "metrics_micro_aggregated": {
+    "skin": {
+      "tp": 7358948,
+      "fp": 816793,
+      "fn": 760099,
+      "iou": 0.8235317552686708,
+      "dice": 0.9032272159662341
+    },
+    "hair": {
+      "tp": 9307643,
+      "fp": 1569981,
+      "fn": 725130,
+      "iou": 0.8021925656615662,
+      "dice": 0.8902406778790475
+    },
+    "eyes": {
+      "tp": 42472,
+      "fp": 503058,
+      "fn": 82980,
+      "iou": 0.06757569489745589,
+      "dice": 0.12659654059274317
+    }
+  },
+  "miou_3_selected_regions": 0.564433338609231,
+  "timing": {
+    "weights_load_seconds": 0.3555512921884656,
+    "warmup_passes": 1,
+    "mean_seconds": 3.5595558121660726,
+    "median_seconds": 3.355502208461985,
+    "p95_seconds": 4.504256340954452,
+    "device": "cpu",
+    "processor_size": "SizeDict(height=512, width=512, longest_edge=None, shortest_edge=None, max_height=None, max_width=None, min_pixels=None, max_pixels=None)",
+    "timed_scope": "RGB input preparation, AutoImageProcessor, forward pass, logits resize, argmax and CPU class-map materialization; excludes file I/O and report writes"
+  },
+  "runtime": {
+    "python": "3.11.9",
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "pillow": "13.0.0",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2"
+  },
+  "evaluation": {
+    "inference": "full original image; same stylist.segmentation.segment_face preprocessing and output resizing as app",
+    "training_or_finetuning": false,
+    "limitations": [
+      "Небольшая выборка: 100 изображений.",
+      "Схемы разметки LaPa и CelebAMask-HQ различаются; использовано указанное сопоставление областей.",
+      "Радужки и точность определения цвета не оценивались.",
+      "Проверка на другом датасете сама по себе не доказывает отсутствие пересечений изображений с обучением модели."
+    ],
+    "created_at_utc": "2026-11-10T22:05:15.841365+00:00"
+  }
+}

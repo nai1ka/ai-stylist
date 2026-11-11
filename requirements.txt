@@ -1,0 +1,11 @@
+streamlit
+mediapipe
+torch
+transformers
+Pillow
+numpy
+huggingface_hub
+matplotlib
+torchvision
+timm
+scikit-learn

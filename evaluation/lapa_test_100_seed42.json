@@ -1,0 +1,509 @@
+{
+  "dataset": "LaPa",
+  "split": "test",
+  "seed": 42,
+  "limit": 100,
+  "official_labelmap": "https://github.com/jd-opensource/lapa-dataset/blob/master/labelmap.txt",
+  "selected": [
+    {
+      "image_id": "4843131900_3",
+      "image": "test/images/4843131900_3.jpg",
+      "mask": "test/labels/4843131900_3.png"
+    },
+    {
+      "image_id": "12708537734_9",
+      "image": "test/images/12708537734_9.jpg",
+      "mask": "test/labels/12708537734_9.png"
+    },
+    {
+      "image_id": "10342386036_4",
+      "image": "test/images/10342386036_4.jpg",
+      "mask": "test/labels/10342386036_4.png"
+    },
+    {
+      "image_id": "5851197059_1",
+      "image": "test/images/5851197059_1.jpg",
+      "mask": "test/labels/5851197059_1.png"
+    },
+    {
+      "image_id": "225929255_0",
+      "image": "test/images/225929255_0.jpg",
+      "mask": "test/labels/225929255_0.png"
+    },
+    {
+      "image_id": "2102026014_3",
+      "image": "test/images/2102026014_3.jpg",
+      "mask": "test/labels/2102026014_3.png"
+    },
+    {
+      "image_id": "19024658_5",
+      "image": "test/images/19024658_5.jpg",
+      "mask": "test/labels/19024658_5.png"
+    },
+    {
+      "image_id": "13387457685_3",
+      "image": "test/images/13387457685_3.jpg",
+      "mask": "test/labels/13387457685_3.png"
+    },
+    {
+      "image_id": "5803292545_0",
+      "image": "test/images/5803292545_0.jpg",
+      "mask": "test/labels/5803292545_0.png"
+    },
+    {
+      "image_id": "1243680871_1",
+      "image": "test/images/1243680871_1.jpg",
+      "mask": "test/labels/1243680871_1.png"
+    },
+    {
+      "image_id": "5043928276_1",
+      "image": "test/images/5043928276_1.jpg",
+      "mask": "test/labels/5043928276_1.png"
+    },
+    {
+      "image_id": "5842472590_1",
+      "image": "test/images/5842472590_1.jpg",
+      "mask": "test/labels/5842472590_1.png"
+    },
+    {
+      "image_id": "8641004049_0",
+      "image": "test/images/8641004049_0.jpg",
+      "mask": "test/labels/8641004049_0.png"
+    },
+    {
+      "image_id": "390947043_1",
+      "image": "test/images/390947043_1.jpg",
+      "mask": "test/labels/390947043_1.png"
+    },
+    {
+      "image_id": "12023443613_1",
+      "image": "test/images/12023443613_1.jpg",
+      "mask": "test/labels/12023443613_1.png"
+    },
+    {
+      "image_id": "4209489347_5",
+      "image": "test/images/4209489347_5.jpg",
+      "mask": "test/labels/4209489347_5.png"
+    },
+    {
+      "image_id": "3010153546_1",
+      "image": "test/images/3010153546_1.jpg",
+      "mask": "test/labels/3010153546_1.png"
+    },
+    {
+      "image_id": "10490493864_0",
+      "image": "test/images/10490493864_0.jpg",
+      "mask": "test/labels/10490493864_0.png"
+    },
+    {
+      "image_id": "1047077026_0",
+      "image": "test/images/1047077026_0.jpg",
+      "mask": "test/labels/1047077026_0.png"
+    },
+    {
+      "image_id": "12205431363_63",
+      "image": "test/images/12205431363_63.jpg",
+      "mask": "test/labels/12205431363_63.png"
+    },
+    {
+      "image_id": "184271917_2",
+      "image": "test/images/184271917_2.jpg",
+      "mask": "test/labels/184271917_2.png"
+    },
+    {
+      "image_id": "201047980_0",
+      "image": "test/images/201047980_0.jpg",
+      "mask": "test/labels/201047980_0.png"
+    },
+    {
+      "image_id": "360544842_3",
+      "image": "test/images/360544842_3.jpg",
+      "mask": "test/labels/360544842_3.png"
+    },
+    {
+      "image_id": "4418625770_0",
+      "image": "test/images/4418625770_0.jpg",
+      "mask": "test/labels/4418625770_0.png"
+    },
+    {
+      "image_id": "10378870645_0",
+      "image": "test/images/10378870645_0.jpg",
+      "mask": "test/labels/10378870645_0.png"
+    },
+    {
+      "image_id": "4023916692_0",
+      "image": "test/images/4023916692_0.jpg",
+      "mask": "test/labels/4023916692_0.png"
+    },
+    {
+      "image_id": "1636840789_1",
+      "image": "test/images/1636840789_1.jpg",
+      "mask": "test/labels/1636840789_1.png"
+    },
+    {
+      "image_id": "5506385817_3",
+      "image": "test/images/5506385817_3.jpg",
+      "mask": "test/labels/5506385817_3.png"
+    },
+    {
+      "image_id": "4893415133_4",
+      "image": "test/images/4893415133_4.jpg",
+      "mask": "test/labels/4893415133_4.png"
+    },
+    {
+      "image_id": "5306903859_0",
+      "image": "test/images/5306903859_0.jpg",
+      "mask": "test/labels/5306903859_0.png"
+    },
+    {
+      "image_id": "3005662698_0",
+      "image": "test/images/3005662698_0.jpg",
+      "mask": "test/labels/3005662698_0.png"
+    },
+    {
+      "image_id": "1876028778_0",
+      "image": "test/images/1876028778_0.jpg",
+      "mask": "test/labels/1876028778_0.png"
+    },
+    {
+      "image_id": "3186566285_0",
+      "image": "test/images/3186566285_0.jpg",
+      "mask": "test/labels/3186566285_0.png"
+    },
+    {
+      "image_id": "4189503672_0",
+      "image": "test/images/4189503672_0.jpg",
+      "mask": "test/labels/4189503672_0.png"
+    },
+    {
+      "image_id": "2286473078_0",
+      "image": "test/images/2286473078_0.jpg",
+      "mask": "test/labels/2286473078_0.png"
+    },
+    {
+      "image_id": "7454231496_0",
+      "image": "test/images/7454231496_0.jpg",
+      "mask": "test/labels/7454231496_0.png"
+    },
+    {
+      "image_id": "8365258990_0",
+      "image": "test/images/8365258990_0.jpg",
+      "mask": "test/labels/8365258990_0.png"
+    },
+    {
+      "image_id": "100301707_2",
+      "image": "test/images/100301707_2.jpg",
+      "mask": "test/labels/100301707_2.png"
+    },
+    {
+      "image_id": "6226702071_2",
+      "image": "test/images/6226702071_2.jpg",
+      "mask": "test/labels/6226702071_2.png"
+    },
+    {
+      "image_id": "7415451730_0",
+      "image": "test/images/7415451730_0.jpg",
+      "mask": "test/labels/7415451730_0.png"
+    },
+    {
+      "image_id": "13709726183_1",
+      "image": "test/images/13709726183_1.jpg",
+      "mask": "test/labels/13709726183_1.png"
+    },
+    {
+      "image_id": "5275437452_0",
+      "image": "test/images/5275437452_0.jpg",
+      "mask": "test/labels/5275437452_0.png"
+    },
+    {
+      "image_id": "3010568313_0",
+      "image": "test/images/3010568313_0.jpg",
+      "mask": "test/labels/3010568313_0.png"
+    },
+    {
+      "image_id": "2620578641_2",
+      "image": "test/images/2620578641_2.jpg",
+      "mask": "test/labels/2620578641_2.png"
+    },
+    {
+      "image_id": "13690592335_1",
+      "image": "test/images/13690592335_1.jpg",
+      "mask": "test/labels/13690592335_1.png"
+    },
+    {
+      "image_id": "179127293_1",
+      "image": "test/images/179127293_1.jpg",
+      "mask": "test/labels/179127293_1.png"
+    },
+    {
+      "image_id": "9316398193_0",
+      "image": "test/images/9316398193_0.jpg",
+      "mask": "test/labels/9316398193_0.png"
+    },
+    {
+      "image_id": "6308031137_7",
+      "image": "test/images/6308031137_7.jpg",
+      "mask": "test/labels/6308031137_7.png"
+    },
+    {
+      "image_id": "2606071558_0",
+      "image": "test/images/2606071558_0.jpg",
+      "mask": "test/labels/2606071558_0.png"
+    },
+    {
+      "image_id": "12098944104_9",
+      "image": "test/images/12098944104_9.jpg",
+      "mask": "test/labels/12098944104_9.png"
+    },
+    {
+      "image_id": "2809472161_0",
+      "image": "test/images/2809472161_0.jpg",
+      "mask": "test/labels/2809472161_0.png"
+    },
+    {
+      "image_id": "12292729676_0",
+      "image": "test/images/12292729676_0.jpg",
+      "mask": "test/labels/12292729676_0.png"
+    },
+    {
+      "image_id": "2721035184_0",
+      "image": "test/images/2721035184_0.jpg",
+      "mask": "test/labels/2721035184_0.png"
+    },
+    {
+      "image_id": "8093511593_2",
+      "image": "test/images/8093511593_2.jpg",
+      "mask": "test/labels/8093511593_2.png"
+    },
+    {
+      "image_id": "2638824327_3",
+      "image": "test/images/2638824327_3.jpg",
+      "mask": "test/labels/2638824327_3.png"
+    },
+    {
+      "image_id": "4450013539_0",
+      "image": "test/images/4450013539_0.jpg",
+      "mask": "test/labels/4450013539_0.png"
+    },
+    {
+      "image_id": "2206817467_2",
+      "image": "test/images/2206817467_2.jpg",
+      "mask": "test/labels/2206817467_2.png"
+    },
+    {
+      "image_id": "7429338504_2",
+      "image": "test/images/7429338504_2.jpg",
+      "mask": "test/labels/7429338504_2.png"
+    },
+    {
+      "image_id": "10852751085_3",
+      "image": "test/images/10852751085_3.jpg",
+      "mask": "test/labels/10852751085_3.png"
+    },
+    {
+      "image_id": "5722039660_5",
+      "image": "test/images/5722039660_5.jpg",
+      "mask": "test/labels/5722039660_5.png"
+    },
+    {
+      "image_id": "326158134_1",
+      "image": "test/images/326158134_1.jpg",
+      "mask": "test/labels/326158134_1.png"
+    },
+    {
+      "image_id": "3824037986_0",
+      "image": "test/images/3824037986_0.jpg",
+      "mask": "test/labels/3824037986_0.png"
+    },
+    {
+      "image_id": "1310482734_1",
+      "image": "test/images/1310482734_1.jpg",
+      "mask": "test/labels/1310482734_1.png"
+    },
+    {
+      "image_id": "9842897925_0",
+      "image": "test/images/9842897925_0.jpg",
+      "mask": "test/labels/9842897925_0.png"
+    },
+    {
+      "image_id": "8928172225_3",
+      "image": "test/images/8928172225_3.jpg",
+      "mask": "test/labels/8928172225_3.png"
+    },
+    {
+      "image_id": "2796619735_1",
+      "image": "test/images/2796619735_1.jpg",
+      "mask": "test/labels/2796619735_1.png"
+    },
+    {
+      "image_id": "11831241455_2",
+      "image": "test/images/11831241455_2.jpg",
+      "mask": "test/labels/11831241455_2.png"
+    },
+    {
+      "image_id": "3960034062_11",
+      "image": "test/images/3960034062_11.jpg",
+      "mask": "test/labels/3960034062_11.png"
+    },
+    {
+      "image_id": "2385408442_7",
+      "image": "test/images/2385408442_7.jpg",
+      "mask": "test/labels/2385408442_7.png"
+    },
+    {
+      "image_id": "7870825388_1",
+      "image": "test/images/7870825388_1.jpg",
+      "mask": "test/labels/7870825388_1.png"
+    },
+    {
+      "image_id": "4735079440_1",
+      "image": "test/images/4735079440_1.jpg",
+      "mask": "test/labels/4735079440_1.png"
+    },
+    {
+      "image_id": "464720108_0",
+      "image": "test/images/464720108_0.jpg",
+      "mask": "test/labels/464720108_0.png"
+    },
+    {
+      "image_id": "8571271168_14",
+      "image": "test/images/8571271168_14.jpg",
+      "mask": "test/labels/8571271168_14.png"
+    },
+    {
+      "image_id": "82531800_2",
+      "image": "test/images/82531800_2.jpg",
+      "mask": "test/labels/82531800_2.png"
+    },
+    {
+      "image_id": "2724717696_4",
+      "image": "test/images/2724717696_4.jpg",
+      "mask": "test/labels/2724717696_4.png"
+    },
+    {
+      "image_id": "4124989701_0",
+      "image": "test/images/4124989701_0.jpg",
+      "mask": "test/labels/4124989701_0.png"
+    },
+    {
+      "image_id": "1563027833_0",
+      "image": "test/images/1563027833_0.jpg",
+      "mask": "test/labels/1563027833_0.png"
+    },
+    {
+      "image_id": "5330896385_1",
+      "image": "test/images/5330896385_1.jpg",
+      "mask": "test/labels/5330896385_1.png"
+    },
+    {
+      "image_id": "11405920224_7",
+      "image": "test/images/11405920224_7.jpg",
+      "mask": "test/labels/11405920224_7.png"
+    },
+    {
+      "image_id": "10915754386_0",
+      "image": "test/images/10915754386_0.jpg",
+      "mask": "test/labels/10915754386_0.png"
+    },
+    {
+      "image_id": "4968606646_0",
+      "image": "test/images/4968606646_0.jpg",
+      "mask": "test/labels/4968606646_0.png"
+    },
+    {
+      "image_id": "195500086_1",
+      "image": "test/images/195500086_1.jpg",
+      "mask": "test/labels/195500086_1.png"
+    },
+    {
+      "image_id": "6520369219_2",
+      "image": "test/images/6520369219_2.jpg",
+      "mask": "test/labels/6520369219_2.png"
+    },
+    {
+      "image_id": "2378804073_0",
+      "image": "test/images/2378804073_0.jpg",
+      "mask": "test/labels/2378804073_0.png"
+    },
+    {
+      "image_id": "11878371606_0",
+      "image": "test/images/11878371606_0.jpg",
+      "mask": "test/labels/11878371606_0.png"
+    },
+    {
+      "image_id": "8193540507_0",
+      "image": "test/images/8193540507_0.jpg",
+      "mask": "test/labels/8193540507_0.png"
+    },
+    {
+      "image_id": "8293146972_3",
+      "image": "test/images/8293146972_3.jpg",
+      "mask": "test/labels/8293146972_3.png"
+    },
+    {
+      "image_id": "12410289653_0",
+      "image": "test/images/12410289653_0.jpg",
+      "mask": "test/labels/12410289653_0.png"
+    },
+    {
+      "image_id": "3224979629_4",
+      "image": "test/images/3224979629_4.jpg",
+      "mask": "test/labels/3224979629_4.png"
+    },
+    {
+      "image_id": "4808101856_3",
+      "image": "test/images/4808101856_3.jpg",
+      "mask": "test/labels/4808101856_3.png"
+    },
+    {
+      "image_id": "7927927918_8",
+      "image": "test/images/7927927918_8.jpg",
+      "mask": "test/labels/7927927918_8.png"
+    },
+    {
+      "image_id": "273712755_1",
+      "image": "test/images/273712755_1.jpg",
+      "mask": "test/labels/273712755_1.png"
+    },
+    {
+      "image_id": "1377373653_0",
+      "image": "test/images/1377373653_0.jpg",
+      "mask": "test/labels/1377373653_0.png"
+    },
+    {
+      "image_id": "275952698_1",
+      "image": "test/images/275952698_1.jpg",
+      "mask": "test/labels/275952698_1.png"
+    },
+    {
+      "image_id": "2697754947_4",
+      "image": "test/images/2697754947_4.jpg",
+      "mask": "test/labels/2697754947_4.png"
+    },
+    {
+      "image_id": "169659264_1",
+      "image": "test/images/169659264_1.jpg",
+      "mask": "test/labels/169659264_1.png"
+    },
+    {
+      "image_id": "4994879006_4",
+      "image": "test/images/4994879006_4.jpg",
+      "mask": "test/labels/4994879006_4.png"
+    },
+    {
+      "image_id": "2221364689_4",
+      "image": "test/images/2221364689_4.jpg",
+      "mask": "test/labels/2221364689_4.png"
+    },
+    {
+      "image_id": "5309873053_0",
+      "image": "test/images/5309873053_0.jpg",
+      "mask": "test/labels/5309873053_0.png"
+    },
+    {
+      "image_id": "9042417191_0",
+      "image": "test/images/9042417191_0.jpg",
+      "mask": "test/labels/9042417191_0.png"
+    }
+  ]
+}
